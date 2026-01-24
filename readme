@@ -1,6 +1,39 @@
-How to compile the project:
+Computer Graphics - Project 2
 
-1. Open Game using Game Engine.sln with Visual Studio
-2. Select Game as the startup project
-3. Build Engine project
-4. Use the x64 Debug Preset for the the debugger
+A 2D horizontal scrolling shooter game built with C++ for Computer Graphics course.
+
+**Student:** Jhair Ayala (2223059)  
+**Deadline:** January 27, 2026
+
+## How to Run
+
+1. Open `Game using Game Engine.sln` with Visual Studio
+2. Press `F5`
+
+## Controls
+
+- **WASD** - Move
+- **Space** - Fire
+
+## What's Implemented
+
+✅ Transformations 
+✅ Animations  
+✅ Horizontal Scrolling 
+✅ Text Rendering 
+✅ UI   
+✅ Resource Management  
+✅ Report   
+
+## Built With
+
+- C++
+- SDL2
+- Box2D
+- Visual Studio 2022
+
+## Structure
+
+- `Engine/` - Game engine (ECS architecture)
+- `Game/` - Xenon 2000 implementation
+- `Assets/` - Sprites and graphics
